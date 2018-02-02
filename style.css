@@ -1,0 +1,28 @@
+p {
+  margin: 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.box {
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.one {
+  background: radial-gradient(closest-side at 35% 35%, red 40%, #acff00, #1f0a6e 50%);
+}
+
+.two {
+  background: radial-gradient(farthest-corner, #0044ff, red, purple);
+}
+.three {
+  background: linear-gradient(to top right, #0044ff, red, #03ff03);
+}
